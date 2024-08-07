@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/prettierrc",
+    "singleQuote": true,
+    "semi": false,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "printWidth": 80,
+    "plugins": ["prettier-plugin-vue"]
+}
