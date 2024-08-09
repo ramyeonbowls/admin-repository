@@ -4,10 +4,11 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "prettier": "prettier --write \"resources/**/*.{js,vue,css,html}\""
+        "prettier": "prettier --write \"resources/**/*.{js,vue,css,html,blade.php}\""
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
+        "@rollup/plugin-alias": "^5.1.0",
         "@vitejs/plugin-vue": "^4.5.0",
         "axios": "^1.6.4",
         "bootstrap": "^5.2.3",
@@ -19,6 +20,7 @@
         "vue": "^3.2.37"
     },
     "dependencies": {
+        "prettier-plugin-blade": "^2.1.17",
         "vue-router": "^4.4.3"
     }
 }
