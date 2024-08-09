@@ -4,7 +4,7 @@
     "semi": false,
     "tabWidth": 4,
     "trailingComma": "es5",
-    "printWidth": 80,
-    "bracketSameLine": true,
+    "printWidth": 300,
+    "bracketSameLine": false,
     "plugins": ["prettier-plugin-vue", "prettier-plugin-blade"]
 }
