@@ -1,3 +1,5 @@
+import PerfectScrollbar from 'perfect-scrollbar'
+
 const TRANSITION_EVENTS = ['transitionend', 'webkitTransitionEnd', 'oTransitionEnd']
 // const TRANSITION_PROPERTIES = ['transition', 'MozTransition', 'webkitTransition', 'WebkitTransition', 'OTransition']
 
@@ -22,7 +24,7 @@ class Menu {
 
         el.classList.add('menu-vertical')
 
-        const PerfectScrollbarLib = _PS || window.PerfectScrollbar
+        const PerfectScrollbarLib = _PS || PerfectScrollbar
 
         if (PerfectScrollbarLib) {
             this._scrollbar = new PerfectScrollbarLib(el.querySelector('.menu-inner'), {
@@ -509,7 +511,7 @@ class Menu {
     }
 
     manageScroll() {
-        const { PerfectScrollbar } = window
+        const PerfectScrollbarLib = PerfectScrollbar
         const menuInner = document.querySelector('.menu-inner')
 
         if (window.innerWidth < window.Helpers.LAYOUT_BREAKPOINT) {
@@ -521,7 +523,7 @@ class Menu {
             menuInner.classList.add('overflow-auto')
         } else {
             if (this._scrollbar === null) {
-                const menuScroll = new PerfectScrollbar(document.querySelector('.menu-inner'), {
+                const menuScroll = new PerfectScrollbarLib(document.querySelector('.menu-inner'), {
                     suppressScrollX: true,
                     wheelPropagation: false,
                 })

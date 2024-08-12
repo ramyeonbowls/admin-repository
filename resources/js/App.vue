@@ -2,9 +2,9 @@
     <div class="layout-wrapper layout-content-navbar">
         <div class="layout-container">
             <!-- <PerfectScrollbar> -->
-                <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
-                    <SidePanel></SidePanel>
-                </aside>
+            <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+                <SidePanel></SidePanel>
+            </aside>
             <!-- </PerfectScrollbar> -->
             <div class="layout-page">
                 <Navbar></Navbar>
@@ -25,8 +25,8 @@
 import SidePanel from './layouts/SidePanel.vue'
 import Navbar from './layouts/Navbar.vue'
 import Footer from './layouts/Footer.vue'
-import { PerfectScrollbar } from 'vue3-perfect-scrollbar'
-import 'vue3-perfect-scrollbar/style.css'
+import PerfectScrollbar from 'perfect-scrollbar'
+import 'perfect-scrollbar/css/perfect-scrollbar.css'
 import { Helpers } from './libs/js/helpers.js'
 import { Menu } from './libs/js/menu.js'
 import 'boxicons/css/boxicons.min.css'

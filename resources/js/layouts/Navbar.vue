@@ -10,7 +10,7 @@
             <!-- Search -->
             <div class="navbar-nav align-items-center">
                 <div class="nav-item d-flex align-items-center">
-                    <i class="bx bx-search bx-md"></i>
+                    <i class="bx bx-search bx-sm"></i>
                     <input type="text" class="form-control border-0 shadow-none ps-1 ps-sm-2" placeholder="Search..." aria-label="Search..." />
                 </div>
             </div>
@@ -49,15 +49,15 @@
                             <div class="dropdown-divider my-1"></div>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#"> <i class="bx bx-user bx-md me-3"></i><span>My Profile</span> </a>
+                            <a class="dropdown-item" href="#"> <i class="bx bx-user bx-sm me-3"></i><span>My Profile</span> </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#"> <i class="bx bx-cog bx-md me-3"></i><span>Settings</span> </a>
+                            <a class="dropdown-item" href="#"> <i class="bx bx-cog bx-sm me-3"></i><span>Settings</span> </a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="#">
                                 <span class="d-flex align-items-center align-middle">
-                                    <i class="flex-shrink-0 bx bx-credit-card bx-md me-3"></i><span class="flex-grow-1 align-middle">Billing Plan</span>
+                                    <i class="flex-shrink-0 bx bx-credit-card bx-sm me-3"></i><span class="flex-grow-1 align-middle">Billing Plan</span>
                                     <span class="flex-shrink-0 badge rounded-pill bg-danger">4</span>
                                 </span>
                             </a>
@@ -66,7 +66,7 @@
                             <div class="dropdown-divider my-1"></div>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="javascript:void(0);"> <i class="bx bx-power-off bx-md me-3"></i><span>Log Out</span> </a>
+                            <a class="dropdown-item" href="javascript:void(0);"> <i class="bx bx-power-off bx-sm me-3"></i><span>Log Out</span> </a>
                         </li>
                     </ul>
                 </li>
