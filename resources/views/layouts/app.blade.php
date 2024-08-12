@@ -22,12 +22,10 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/css/core.css?' . rand(10000, 99999)) }}" class="template-customizer-core-css" />
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/css/theme-default.css?' . rand(10000, 99999)) }}" class="template-customizer-theme-css" />
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/demo.css?' . rand(10000, 99999)) }}" />
-        <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css?' . rand(10000, 99999)) }}" />
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/css/pages/page-auth.css?' . rand(10000, 99999)) }}" />
         @yield('css')
 
         <!-- Scripts -->
-        <script type="text/javascript" src="{{ asset('assets/vendor/js/helpers.js?' . rand(10000, 99999)) }}"></script>
         <script type="text/javascript" src="{{ asset('assets/js/config.js?' . rand(10000, 99999)) }}"></script>
         @yield('js')
         @vite(['resources/sass/app.scss', 'resources/sass/core.scss', 'resources/sass/theme-default.scss', 'resources/js/app.js'])
@@ -38,13 +36,7 @@
                 @yield('content')
             </main>
 
-            <!-- Charts JS -->
-            <script type="text/javascript" src="{{ asset('assets/vendor/libs/jquery/jquery.js?' . rand(10000, 99999)) }}"></script>
-            <script type="text/javascript" src="{{ asset('assets/vendor/libs/popper/popper.js?' . rand(10000, 99999)) }}"></script>
-            <script type="text/javascript" src="{{ asset('assets/vendor/js/bootstrap.js?' . rand(10000, 99999)) }}"></script>
-            <script type="text/javascript" src="{{ asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js?' . rand(10000, 99999)) }}"></script>
-            <script type="text/javascript" src="{{ asset('assets/vendor/js/menu.js?' . rand(10000, 99999)) }}"></script>
-            <script type="text/javascript" src="{{ asset('assets/js/main.js?' . rand(10000, 99999)) }}"></script>
+            <!-- Javascript -->
             <script async defer src="https://buttons.github.io/buttons.js"></script>
             @yield('javascript')
         </div>

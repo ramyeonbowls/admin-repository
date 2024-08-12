@@ -19,7 +19,7 @@
             <ul class="navbar-nav flex-row align-items-center ms-auto">
                 <!-- Place this tag where you want the button to render. -->
                 <li class="nav-item lh-1 me-4">
-                    <a class="github-button" href="https://github.com/themeselection/sneat-html-admin-template-free" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star themeselection/sneat-html-admin-template-free on GitHub">Star</a>
+                    <a class="github-button" href="#" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label=""></a>
                 </li>
 
                 <!-- User -->
@@ -77,8 +77,6 @@
 </template>
 
 <script>
-let menu, animate
-
 export default {
     name: 'Navbar',
 

@@ -29,6 +29,10 @@ export default defineConfig({
             '@': path.resolve(__dirname, 'resources/sass'),
             '@components': path.resolve(__dirname, 'resources/sass/_components'),
             '@custom-variables': path.resolve(__dirname, 'resources/sass/_custom-variables'),
+            '@public_path': path.resolve(__dirname, 'public'),
         },
+    },
+    build: {
+        sourcemap: true,
     },
 });
